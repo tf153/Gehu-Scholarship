@@ -22,7 +22,7 @@
       $twelth=$_POST["twelth"];
       $academic=0;
       if($valid=="0"){
-        echo "<span id='not_elligible'>Sorry You are not elligible for academic scholarship</span1><br>";
+        echo "<span id='not_elligible'>Sorry You are not elligible for academic scholarship</span><br>";
       }
       else{
         $academic=$twelth/10;
