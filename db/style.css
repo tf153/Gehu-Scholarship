@@ -1,0 +1,19 @@
+body {
+  background-color: #73dfdf;
+  background-size: 100%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#not_elligible {
+  font-size: 2cmin;
+  color: red;
+}
+#result {
+  display: inline-block;
+  border: 0.5vmin double steelblue;
+  font-size: 2vmin;
+  font-weight: bolder;
+  padding: 3vmin;
+}
